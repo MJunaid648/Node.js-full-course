@@ -32,5 +32,4 @@ const fileOps = async () => {
     console.log(error);
   }
 };
-
 fileOps();
