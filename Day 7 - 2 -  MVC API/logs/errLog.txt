@@ -1,0 +1,22 @@
+20240215	11:04:20	8fc87517-2d69-4b06-b9ae-fd10af2dd4d2	Error: Not allowed by CORS
+20240215	17:11:17	bae88312-2783-49d5-aa5a-71b85a0f0783	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 6\routes\files\index.html'
+20240215	17:12:27	8d360fb4-7847-4fac-93e7-bd6c7c1af345	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 6\routes\files\index.html'
+20240215	17:13:21	d66f55a9-9826-47ac-b59c-87684392f7eb	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 6\routes\files\index.html'
+20240215	17:13:33	31b046bf-dd08-4c9c-8c0f-166385d44d70	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 6\routes\files\index.html'
+20240215	17:13:34	bfbee230-462b-48f4-b428-365980958527	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 6\routes\files\index.html'
+20240216	10:59:19	b1766778-95ff-4613-8b7d-7359a0f0f122	TypeError: req.json is not a function
+20240216	11:00:32	1ef3d4b3-8bfe-4aea-8b39-bd0ba9a79dcc	TypeError: req.json is not a function
+20240216	11:05:03	36933bf8-3013-49ea-979a-784448779921	ReferenceError: res is not defined
+20240216	12:42:24	4a4b2713-301d-402b-9c44-967fcfea8dc9	ReferenceError: data is not defined
+20240216	13:03:19	6d96d49e-cb59-4c5b-abdf-3c552a2a57dd	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 7 - 2 -  MVC API\files\404.html'
+20240216	13:03:51	db827df5-27f6-4628-b690-8a2cb70f14bb	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 7 - 2 -  MVC API\files\404.html'
+20240216	13:04:03	5c2af9e2-9d74-472d-9534-1ce6727a75bf	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 7 - 2 -  MVC API\files\404.html'
+20240216	13:06:03	5352687b-9f87-4bc3-92d3-37495bf13197	RangeError: Invalid status code: 4
+20240216	13:06:34	bdb3d1f4-cb6b-4be9-8854-36da0f53e7ff	RangeError: Invalid status code: 4
+20240216	13:06:46	95a1c78f-b248-4c3c-986e-b08204f9ed25	RangeError: Invalid status code: 8
+20240216	13:07:48	73d9ec6d-9c98-4546-bcb6-52b3f792d26c	RangeError: Invalid status code: 8
+20240216	13:20:22	0d226ca7-63d2-4f2c-a958-969a2953d926	ReferenceError: newEmployee is not defined
+20240216	13:57:21	1951afd9-d4c2-43ee-b9c4-63744f621777	ReferenceError: newEmployee is not defined
+20240216	14:04:27	e8fc772d-59fb-4f0f-85da-d76cd0e6147d	ReferenceError: newEmployee is not defined
+20240216	14:09:27	682d04c4-6125-40e2-87e6-0cb479af7b60	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 7 - 2 -  MVC API\files\404.html'
+20240216	14:42:23	6b541a3a-5a6b-445e-a9d2-e134ad259494	Error: ENOENT: no such file or directory, stat 'F:\dev\MERN stack Specialization\backend\Node.js-full-course\Day 7 - 2 -  MVC API\files\404.html'

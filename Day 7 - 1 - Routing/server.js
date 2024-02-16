@@ -27,7 +27,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
-//BUILT-IN MIDDLEWARES
+//...................................BUILT-IN MIDDLEWARES
 // ACCEPTS DATA ENCODED IN URL. SUCH AS FROM HTML FORMS
 app.use(express.urlencoded({ extended: false }));
 // ACCEPT DATA IN THE JSON FORMAT
@@ -38,11 +38,14 @@ app.use("/subdir", express.static(path.join(__dirname, "./files")));
 
 // ROUTES
 app.use("/subdir", require("./routes/subdir.js"));
+app.use("/employees", require("./routes/api/employees.js"));
+
+
 // app.get("/*", (req, res) => {
 //   res.status(404).sendFile(path.join(__dirname, "files", "404.html"));
 // });
 
-// ANOTHER BETTER WAY TO HANDLE UNNECESSARY ROUTES WITH ERRORS
+// A BETTER WAY TO HANDLE UNNECESSARY ROUTES WITH ERRORS
 app.all("*", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
@@ -54,7 +57,6 @@ app.all("*", (req, res) => {
   }
 });
 app.use(errorHandler);
-
 app.listen(5000, () => {
   console.log("Server is running in the port ", PORT);
 });
