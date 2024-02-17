@@ -1,4 +1,4 @@
-let employees = require("../data/employees.json");
+let employees = require("../model/employees.json");
 
 const getAllEmployees = (req, res) => {
   res.json(employees);
